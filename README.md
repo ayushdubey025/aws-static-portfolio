@@ -6,6 +6,7 @@ This project documents how I hosted my personal portfolio (from [Portfolio Repo]
 - **CloudFront**
 - **ACM (SSL)**
 - **(Optional) Route 53**
+- **IAM** (for secure access)
 
 ---
 
@@ -22,7 +23,18 @@ This project documents how I hosted my personal portfolio (from [Portfolio Repo]
 - **CloudFront** – To distribute the site globally & enable HTTPS
 - **ACM** – To issue a free SSL certificate
 - **Route 53** *(Optional)* – For domain registration or DNS routing
-- **IAM** – For configuring permissions and access
+- **IAM** – To securely control access to AWS resources
+
+---
+
+## 🔐 IAM Usage
+
+To follow AWS security best practices, I created and used a dedicated IAM user with limited permissions to manage the S3 bucket through the AWS Console:
+
+- Created IAM user with **AmazonS3FullAccess** policy
+- Avoided using root credentials for any deployment or configuration
+- Learned how to manage access control and permissions securely
+- Did all configuration via the AWS Management Console (no CLI)
 
 ---
 
@@ -34,6 +46,7 @@ This project documents how I hosted my personal portfolio (from [Portfolio Repo]
 | CloudFront Setup   | ![](screenshots/cloudfront.png)      |
 | SSL via ACM        | ![](screenshots/acm.png)             |
 | Route 53 (optional)| ![](screenshots/route53.png)         |
+| IAM Permissions    | ![](screenshots/iam-user.png)        |
 
 ---
 
@@ -45,6 +58,7 @@ This project documents how I hosted my personal portfolio (from [Portfolio Repo]
 4. Created CloudFront distribution with S3 bucket as origin
 5. Requested SSL certificate in ACM and attached it to CloudFront
 6. (Optional) Connected Route 53 domain for custom URL
+7. Used IAM user to manage project securely via console access
 
 ---
 
@@ -52,7 +66,7 @@ This project documents how I hosted my personal portfolio (from [Portfolio Repo]
 
 - Hosting static sites securely with AWS
 - Using CloudFront and ACM for HTTPS
-- Understanding permissions with IAM
+- Setting up access control using IAM (no CLI)
 - Deploying real-world cloud infrastructure for web projects
 
 ---
