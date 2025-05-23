@@ -58,6 +58,7 @@ This repo contains:
 | CloudFront Origin Settings  | ![](screenshots/cloudfront-origin-settings.png)|
 | Default Root Object (index) | ![](screenshots/cloudfront-default-root-object.png) |
 | CloudFront Deployment       | ![](screenshots/cloudfront-distribution-created.png) |
+| CloudFront Deployment       | ![](screenshots/cloudfront-distribution-created1.png) |
 | Final Website Output        | ![](screenshots/cloudfront-final-output.png)   |
 | IAM Policy Configuration    | ![](screenshots/iam-user-policies.png)         |
 
@@ -66,10 +67,11 @@ This repo contains:
 
 ## 🧠 What I Learned
 
-- How to host static websites securely on AWS
-- The role of CloudFront + ACM for global HTTPS delivery
-- Managing IAM users and roles for least-privilege access
-- Hands-on practice with AWS S3, Route 53, and ACM
+- How to host and manage static websites securely using Amazon S3
+- Using Amazon CloudFront for global content delivery and HTTPS with default SSL
+- Managing IAM users and policies for least-privilege access and avoiding root credentials
+- Hands-on experience with AWS services like S3, CloudFront, and IAM to deploy real-world infrastructure
+- Understanding AWS security best practices and free-tier cost optimization
 
 ---
 
