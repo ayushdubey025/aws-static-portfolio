@@ -34,7 +34,6 @@ This repo contains:
 |----------------|------------------------------------------|
 | Amazon S3      | Host static portfolio files              |
 | CloudFront     | Global content delivery and HTTPS        |
-| ACM            | Issue free SSL certificates              |
 | IAM            | Secure access to AWS services            |
 | Route 53       | Domain and DNS management (optional)     |
 
