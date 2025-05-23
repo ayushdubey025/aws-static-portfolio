@@ -52,15 +52,15 @@ This repo contains:
 
 | Step                        | Screenshot                                     |
 |-----------------------------|------------------------------------------------|
-| S3 Files & Folders          | ![](screenshots/s3-bucket-files.png)           |
-| S3 Static Hosting Settings  | ![](screenshots/s3-static-hosting.png)         |
-| S3 Public Access Policy     | ![](screenshots/s3-public-permission.png)      |
-| CloudFront Origin Settings  | ![](screenshots/cloudfront-origin-settings.png)|
-| Default Root Object (index) | ![](screenshots/cloudfront-default-root-object.png) |
-| CloudFront Deployment       | ![](screenshots/cloudfront-distribution-created.png) |
-| CloudFront Deployment       | ![](screenshots/cloudfront-distribution-created1.png) |
-| Final Website Output        | ![](screenshots/cloudfront-final-output.png)   |
-| IAM Policy Configuration    | ![](screenshots/iam-user-policies.png)         |
+| S3 Files & Folders          | ![S3 bucket files](screenshots/s3-bucket-files.png)           |
+| S3 Static Hosting Settings  | ![S3 static hosting](screenshots/s3-static-hosting.png)         |
+| S3 Public Access Policy     | ![S3 public access policy](screenshots/s3-public-permission.png)      |
+| CloudFront Origin Settings  | ![CloudFront origin settings](screenshots/cloudfront-origin-settings.png)|
+| Default Root Object (index) | ![Default root object set to index.html](screenshots/cloudfront-default-root-object.png) |
+| CloudFront Deployment       | ![CloudFront distribution created](screenshots/cloudfront-distribution-created.png) |
+| CloudFront Deployment (Backup) | ![CloudFront distribution status](screenshots/cloudfront-distribution-created1.png) |
+| Final Website Output        | ![Final website view via CloudFront](screenshots/cloudfront-final-output.png)   |
+| IAM Policy Configuration    | ![IAM user policies for S3 access](screenshots/iam-user-policies.png)         |
 
 
 ---
