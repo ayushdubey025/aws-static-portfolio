@@ -50,12 +50,17 @@ This repo contains:
 
 ## 📸 Screenshots
 
-| Step                 | Screenshot                      |
-|----------------------|----------------------------------|
-| S3 Static Hosting    | ![](screenshots/s3-settings.png) |
-| CloudFront Setup     | ![](screenshots/cloudfront.png)  |
-| Route 53 (optional)  | ![](screenshots/route53.png)     |
-| IAM Permissions      | ![](screenshots/iam-user.png)    |
+| Step                        | Screenshot                                     |
+|-----------------------------|------------------------------------------------|
+| S3 Files & Folders          | ![](screenshots/s3-bucket-files.png)           |
+| S3 Static Hosting Settings  | ![](screenshots/s3-static-hosting.png)         |
+| S3 Public Access Policy     | ![](screenshots/s3-public-permission.png)      |
+| CloudFront Origin Settings  | ![](screenshots/cloudfront-origin-settings.png)|
+| Default Root Object (index) | ![](screenshots/cloudfront-default-root-object.png) |
+| CloudFront Deployment       | ![](screenshots/cloudfront-distribution-created.png) |
+| Final Website Output        | ![](screenshots/cloudfront-final-output.png)   |
+| IAM Policy Configuration    | ![](screenshots/iam-user-policies.png)         |
+
 
 ---
 
